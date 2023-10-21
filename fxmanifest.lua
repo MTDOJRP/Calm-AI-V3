@@ -8,7 +8,7 @@ games { 'gta5' }
 -- Define the resource metadata
 name 'Calm-AI V3'
 description 'A simple reboot that also includes an AI density manager'
-author 'Jordan.#2139'
+author 'Skyy'
 version 'v1.1.0'
 
 
@@ -18,7 +18,6 @@ client_script "client.lua"
 
 -- Server Scripts
 server_script "config.lua"
-server_script "version_check.lua"
 
 -- Calling Files For The Script
 files {
