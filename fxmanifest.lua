@@ -22,8 +22,10 @@ server_script "config.lua"
 -- Calling Files For The Script
 files {
 	'events.meta',
+	'handling.meta',
 	'relationships.dat'
 }
 
 -- Defining the data file
 data_file 'EVENTS_OVERRIDE_FILE' 'events.meta'
+data_file 'HANDLING_FILE' 'handling.meta'
